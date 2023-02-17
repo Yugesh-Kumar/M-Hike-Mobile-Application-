@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:collapseColumns=" Data\nstartu "
+    android:gravity="center"
+    android:shrinkColumns="*"
+    android:background="@color/letter_dark"
+    android:stretchColumns="1">
+    <TableRow>
+
+        <TextView
+            android:padding="30dp"
+            android:text="Time:"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+
+            />
+
+        <EditText
+            android:id="@+id/date"
+            android:gravity="right"
+            android:hint="Time"
+            android:padding="30dp" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Fauna:"
+            android:id="@+id/fa"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:padding="30dp" />
+        <EditText
+            android:hint="Mammals/ Birds/ Insects"
+            android:id="@+id/fauna"
+            android:gravity="right"
+            android:padding="20dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Flora:"
+            android:textSize="20dp"
+            android:id="@+id/fl"
+            android:textColor="@android:color/black"
+            android:padding="30dp" />
+        <EditText
+            android:hint="Plants/ Flowers/ Fruits"
+            android:gravity="right"
+            android:id="@+id/flora"
+            android:padding="20dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Vegetation:"
+            android:textSize="20dp"
+            android:id="@+id/vg"
+            android:textColor="@android:color/black"
+            android:padding="30dp" />
+        <EditText
+            android:hint="Grassland/ Forest/ Desert"
+            android:gravity="right"
+            android:id="@+id/vegetation"
+            android:padding="20dp" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:text="Weather:"
+            android:textSize="20dp"
+            android:id="@+id/we"
+            android:textColor="@android:color/black"
+            android:padding="20dp" />
+        <EditText
+            android:hint="Windy/ Snowy/ Sunny"
+            android:gravity="right"
+            android:id="@+id/weather"
+            android:padding="20dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Trail Condition:"
+            android:textSize="20dp"
+            android:id="@+id/tr"
+            android:textColor="@android:color/black"
+            android:padding="30dp" />
+        <EditText
+            android:hint="Broadwalk/ Bike/ Trek"
+            android:gravity="right"
+            android:id="@+id/trail"
+            android:padding="20dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Comment:"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:padding="20dp" />
+
+        <EditText
+            android:id="@+id/comment"
+            android:gravity="right"
+            android:hint="Additional Comments"
+            android:padding="30dp" />
+    </TableRow>
+
+<TableRow>
+        <Button
+            android:text="Submit"
+            android:id="@+id/button"
+            android:padding="20dp"
+             android:layout_column="0"
+            />
+
+    <Button
+        android:text="View Observation"
+        android:id="@+id/button2"
+        android:padding="20dp"
+        android:layout_column="1"
+        />
+</TableRow>
+
+
+</TableLayout>

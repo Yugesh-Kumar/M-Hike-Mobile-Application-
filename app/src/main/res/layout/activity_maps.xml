@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/letter_light"
+    android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="45dp"
+            android:padding="10dp"
+            android:text="Enter Hike Details"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/hikena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="134dp"
+            android:background="@color/letter_dark"
+            android:hint=" Enter Hike Name"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="114dp"
+            android:layout_marginTop="132dp"
+            android:padding="10dp"
+            android:text="Choose Location"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="100dp"
+            tools:context=".MapsActivity" />
+
+
+
+        <Button
+            android:id="@+id/nex"
+            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="700dp"
+            android:gravity="center"
+            android:text="Next"
+            android:layout_marginStart="150dp"
+            android:padding="10dp"
+            android:background="@drawable/rounded_corner"
+            android:textColor="@color/white"/>
+
+
+
+
+    </RelativeLayout>
+
+

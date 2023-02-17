@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/letter_light">
+
+
+        <TextView
+            android:id="@+id/idTVSelectedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/idBtnPickDate"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="101dp"
+            android:layout_marginEnd="137dp"
+            android:backgroundTint="@color/shady"
+            android:text="Pick Date"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="122dp"
+            android:padding="10dp"
+            android:text="Distance"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="220dp"
+            android:indeterminate="false"
+            android:progressDrawable="@color/letter_dark"
+            android:max="50"
+            android:min="4"
+            android:progress="0"
+            android:thumbTint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/letter_dark"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginEnd="300dp"
+            android:padding="10dp"
+            android:id="@+id/pr"
+            ></TextView>
+
+
+
+        <RadioGroup
+            android:layout_marginTop="280dp"
+            android:id="@+id/groupradio"
+            android:layout_marginLeft="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <!-- In RadioGroup create the 1 Radio Button-->
+            <!-- like this we will add some more Radio Button-->
+            <TextView
+                android:id="@+id/gp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Choose level of Difficulty"
+                android:textAlignment="center"
+                android:textColor="@color/letter_dark"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radia_id1"
+                android:text="Easy"
+                android:textColor="@color/letter_dark"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radia_id2"
+                android:text="Medium"
+                android:textColor="@color/letter_dark"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radia_id3"
+                android:textColor="@color/letter_dark"
+                android:text="Hard"
+                android:textSize="20sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="101dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Suitability"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:textColor="@color/letter_dark"
+            android:layout_marginLeft="15dp"
+            android:text="Child friendly"
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="15dp"
+            android:text="Pet friendly"
+            android:textColor="@color/letter_dark"
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/letter_dark"
+            android:text="wheelchair friendly"
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="650dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/letter_dark"
+            android:text="paved"
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/letter_dark"
+            android:text="pram friendly"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="750dp"
+            android:layout_marginEnd="97dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Attraction"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="800dp"
+            android:layout_marginLeft="15dp"
+            android:text="Waterfall"
+            android:textColor="@color/letter_dark"
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="850dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/letter_dark"
+            android:text="Forest "
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="900dp"
+            android:layout_marginLeft="15dp"
+            android:text="River"
+            android:textSize="20dp"
+            android:textColor="@color/letter_dark"
+            />
+        <CheckBox
+            android:id="@+id/checkBo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="950dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/letter_dark"
+            android:text="Wild life"
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1000dp"
+            android:textColor="@color/letter_dark"
+            android:layout_marginLeft="15dp"
+            android:text="Cave"
+            android:textSize="20dp"
+            />
+        <CheckBox
+            android:id="@+id/checkBo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1050dp"
+            android:layout_marginLeft="15dp"
+            android:text="Beach"
+            android:textSize="20dp"
+            android:textColor="@color/letter_dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parking"
+            android:layout_marginLeft="140dp"
+            android:id="@+id/park"
+            android:layout_marginTop="1100dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/idSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="1170dp"
+            android:text="NO"
+            android:textColor="@color/letter_dark"
+            android:textSize="25dp"
+            android:thumb="@drawable/custom_switch"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+        <TextView
+            android:id="@+id/idTVStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1175dp"
+            android:layout_marginLeft="235dp"
+            android:text="YES"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="1250dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/EditTex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1300dp"
+            android:background="@drawable/et_style"
+            android:backgroundTint="#574B4B"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:lines="10"
+            android:maxLines="15"
+            android:minLines="5"
+            android:padding="20dp"
+
+            />
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:layout_marginStart="150dp"
+            android:id="@+id/btnInsert"
+            android:layout_marginTop="1500dp"
+            android:backgroundTint="@color/letter_dark"
+            />
+
+
+
+    </RelativeLayout>
+</ScrollView>

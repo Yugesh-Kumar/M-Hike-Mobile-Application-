@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        tools:context=".hikepreview"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+
+        <TextView
+            android:id="@+id/tex1"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="122dp"
+            android:padding="10dp"
+            android:text="Preview"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tex2"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="262dp"
+            android:padding="10dp"
+            android:text="Hike Name"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo1"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="17dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:hint="Hike Name"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginEnd="262dp"
+            android:padding="10dp"
+            android:text="Location"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo2"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="225dp"
+            android:layout_marginEnd="17dp"
+            android:padding="10dp"
+            android:text="Place"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/he1"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="262dp"
+            android:padding="10dp"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo3"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="17dp"
+            android:padding="10dp"
+            android:text="dd_mm_yyyy"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/he2"
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginEnd="252dp"
+            android:padding="10dp"
+            android:text="Distance"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo4"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="186dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="371dp"
+            android:layout_marginEnd="19dp"
+            android:padding="10dp"
+            android:text="km"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/he3"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="262dp"
+            android:padding="10dp"
+            android:text="Level"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo5"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="17dp"
+            android:padding="10dp"
+            android:text="E/M/D"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/he4"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="525dp"
+            android:layout_marginEnd="239dp"
+            android:padding="10dp"
+            android:text="Suitability"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/helo5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="190dp"
+            android:layout_marginLeft="140dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="15dp"
+            android:padding="10dp"
+            android:text="------"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/he5"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/he4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="710dp"
+            android:layout_marginEnd="240dp"
+            android:padding="10dp"
+            android:text="Attraction"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="710dp"
+            android:layout_marginEnd="17dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="%%%%%%"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/he6"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="830dp"
+            android:layout_marginEnd="262dp"
+            android:padding="10dp"
+            android:text="Parking"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="830dp"
+            android:layout_marginEnd="17dp"
+            android:padding="10dp"
+            android:text="A/N A"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/he7"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="905dp"
+            android:layout_marginEnd="237dp"
+            android:padding="10dp"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textColor="@color/letter_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helo9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="905dp"
+            android:layout_marginEnd="17dp"
+            android:padding="10dp"
+            android:text="#########"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/helo9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="221dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/hint"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginEnd="41dp"
+            android:text="Submit" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "315254267835",
+    "firebase_url": "https://fir-project-938ed-default-rtdb.firebaseio.com",
+    "project_id": "fir-project-938ed",
+    "storage_bucket": "fir-project-938ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315254267835:android:bb608d4410cf61897e6e9e",
+        "android_client_info": {
+          "package_name": "com.example.loginsqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315254267835-740juhiosqc5727bemlccq058eeehqtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzzT0eTG2WSlNQZDF2cTCH_HQmHXhu9cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315254267835-740juhiosqc5727bemlccq058eeehqtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
